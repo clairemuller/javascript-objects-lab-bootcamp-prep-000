@@ -7,7 +7,7 @@ const updateObjectWithKeyAndValue = (object, key, value) => {
 };
 
 const destructivelyUpdateObjectWithKeyAndValue = (object, key, value) => {
-  object[key] = 'value'
+  object[key] = 'value';
   return object;
 };
 
