@@ -15,7 +15,7 @@ const deleteFromObjectByKey = (object, key) => {
 };
 
 const destructivelyDeleteFromObjectByKey = (object, key) => {
-  delete object.key;
+  delete object[key];
 };
 
 
