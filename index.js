@@ -2,12 +2,12 @@ var recipes = {};
 
 
 const updateObjectWithKeyAndValue = (object, key, value) => {
-  object[key] = 'value'
+  
   return object;
 };
 
 const destructivelyUpdateObjectWithKeyAndValue = (object, key, value) => {
-  
+    object[key] = 'value'
   return object;
 };
 
